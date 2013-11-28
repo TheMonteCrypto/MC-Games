@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset='utf-8' />
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>MC-Roulette</title>
+
+<!-- REQUIRED CSS -->
+<link id='css-mc-roulette' href='css/mc-roulette.css' rel='stylesheet'>
+
+<!-- REQUIRED JAVASCRIPT -->
+<script id='js-howler' src='js/jquery.js'></script>
+<script id='js-howler' src='js/transit.js'></script>
+<script id='js-howler' src='js/howler.js'></script>
+<script id='js-howler' src='js/random.js'></script>
+<script id='js-mc-roulette' src='js/mc-roulette.js'></script>
+
+</head>
+
+<body>
+
+	<div id="table">
+		<div class="mc-logo-wrapper">
+			<a class="mc-logo" href="http://montecrypto.com">MonteCrypto</a>
+		</div>
+
+		<hr>
+		
+		<div id="roulette-wrapper">
+			<div id="wheel">
+				<img src="img/big-wheel.png">
+			</div>
+			<div id="ball">
+				<img src="img/ball.png">
+			</div>
+		</div>
+
+		<div id="instructions">
+			<p>Click the wheel in order to make it spin! By default, it tries to use <a href="http://random.org" target="_blank">http://random.org</a> to pick two numbers. The wheel and ball spin in opposite directions.</p>
+			<p>To manually select the two numbers, please use the form below:</p>
+			<input type="text" placeholder="Wheel Number 0 - 38" id="wheel-num" />
+			<input type="text" placeholder="Ball Number 0 - 38" id="ball-num" />
+		</div>
+		
+	</div>
+
+</body>
