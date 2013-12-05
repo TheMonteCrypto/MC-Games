@@ -24,9 +24,9 @@ a:hover {
 	box-shadow: 1px 2px 3px #444;
 	display: block;
 	position: relative;
-	width: 60%;
-	padding: 30px 10%;
-	margin: 10%;
+	width: 80%;
+	padding: 30px 5%;
+	margin: 5%;
 }
 div.mc-logo-wrapper {
 	display: block;
@@ -80,8 +80,20 @@ MC ROULETTE
 #table #roulette-wrapper,
 #table #instructions {
 	display: inline-block;
+	text-align: center;
 	position: relative;
 	vertical-align: top;
-	width: 47%;
+	width: 97%;
 	margin: 20px 1%;
+}
+@media (min-width: 992px) {
+	#table #roulette-wrapper,
+	#table #instructions {
+		width: 47%;
+	}
+	#table {
+		width: 60%;
+		padding: 30px 10%;
+		margin: 30px 10%;
+	}
 }
